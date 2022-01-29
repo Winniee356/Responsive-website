@@ -102,11 +102,17 @@ p {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 70px;
+  }
   h2,
   p {
     text-align: center;
   }
-  .mobile-img {
+  .primary-button {
+    text-align: center;
+  }
+  #mobile-img {
     display: none;
   }
 }
