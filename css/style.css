@@ -6,6 +6,7 @@
 
 body {
   margin-top: 1px;
+  margin-bottom: 10px;
 }
 
 h1,
@@ -21,7 +22,7 @@ h1 {
 
 h2 {
   font-size: 40px;
-  padding-top: 100px;
+  padding-top: 20px;
   font-family: "Open Sans";
 }
 
@@ -73,7 +74,7 @@ p {
 .primary-button {
   font-size: 1rem;
   border-radius: 2px;
-  padding: 20px 15px;
+  padding: 20px 20px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
