@@ -103,13 +103,14 @@ p {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
   h2,
   p {
     text-align: center;
   }
   .primary-button {
+    display: flex;
     text-align: center;
   }
   #mobile-img {
