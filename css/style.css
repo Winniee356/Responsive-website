@@ -81,6 +81,10 @@ p {
   color: white;
 }
 
+.primary-button:hover {
+  color: white;
+}
+
 .about-paragraphs {
   margin: 30px 0;
 }
@@ -104,6 +108,7 @@ p {
 @media (max-width: 576px) {
   h1 {
     font-size: 50px;
+    line-height: 1.5;
   }
   h2 {
     font-size: 25px;
@@ -119,16 +124,11 @@ p {
     text-align: center;
   }
   .primary-button {
-    display: flex;
+    display: block;
     text-align: center;
+    margin: 0 20px;
   }
   #mobile-img {
     display: none;
-  }
-
-  #about-img {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 10px;
   }
 }
